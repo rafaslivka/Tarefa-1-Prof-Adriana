@@ -23,7 +23,6 @@ public class Exercicio1 {
         //result
         System.out.println("A idade em dias é: " + totalDias);
         
-        //close_scanner
         scanner.close();
     }
 
@@ -31,13 +30,11 @@ public class Exercicio1 {
 
 Teste de mesa:
 
-| Passo | Descrição                            | Valor | Cálculo        | Resultado |
-|-------|--------------------------------------|-------|----------------|-----------|
-| 1     | Entrada: Idade em anos               | 2     |                |           |
-| 2     | Entrada: Idade em meses              | 3     |                |           |
-| 3     | Entrada: Idade em dias               | 10    |                |           |
-| 4     | Calcular dias baseados nos anos      |       | `2 * 365`      | 730       |
-| 5     | Calcular dias baseados nos meses     |       | `3 * 30`       | 90        |
-| 6     | Adicionar dias diretamente           |       | `10`           | 10        |
-| 7     | Somar todos os dias                  |       | `730 + 90 + 10`| 830       |
-| 8     | Resultado final                      |       |                | 830       |
+| Anos | Meses | Dias | Cálculo                | Resultado |
+|------|-------|------|------------------------|-----------|
+| 2    | 3     | 10   | Entrada dos dados      |           |
+| 2    | 3     | 10   | `2 * 365`              | 730       |
+| 2    | 3     | 10   | `3 * 30`               | 90        |
+| 2    | 3     | 10   | `10`                   | 10        |
+| 2    | 3     | 10   | `730 + 90 + 10`        | 830       |
+| 2    | 3     | 10   | Resultado Final        | 830       |
