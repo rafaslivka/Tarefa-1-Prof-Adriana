@@ -26,3 +26,10 @@ public class Exercicio3 {
 }
 
 Teste de mesa: 
+
+| Passo | Entrada | Variáveis                          | Cálculo                                     | Saída                       |
+|-------|---------|------------------------------------|---------------------------------------------|-----------------------------|
+| 1     | -       | `scanner`                           | -                                           | -                           |
+| 2     | `3000`  | `salarioAtual = 3000`               | -                                           | -                           |
+| 3     | `5`     | `percentualReajuste = 5`            | -                                           | -                           |
+| 4     | -       | `novoSalario = salarioAtual + (salarioAtual * percentualReajuste / 100)` | `novoSalario = 3000 + (3000 * 5 / 100) = 3150` | `O novo salário é: 3150.00` |
