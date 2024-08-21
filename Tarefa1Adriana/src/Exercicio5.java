@@ -19,14 +19,11 @@ public class Exercicio5 {
        
         System.out.print("Digite o valor recebido por carro vendido: R$ ");
         double valorPorCarro = scanner.nextDouble();
-        
-        //comissão por carro vendido
+
         double comissaoPorCarro = numeroCarrosVendidos * valorPorCarro;
-        
-        //comissão 5%
+
         double comissaoPorVendas = 0.05 * valorTotalVendas;
-        
-        //salário final
+
         double salarioFinal = salarioFixo + comissaoPorCarro + comissaoPorVendas;
         
         System.out.printf("O salário final do vendedor é: R$ %.2f%n", salarioFinal);
