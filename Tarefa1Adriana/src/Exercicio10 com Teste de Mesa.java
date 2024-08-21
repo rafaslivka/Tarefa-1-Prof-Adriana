@@ -1,6 +1,8 @@
-10 - 
+10 - Ler as notas da 1a. e 2a. avaliações de um aluno. 
+     Calcular a média aritmética simples e escrever uma mensagem que diga se o aluno foi ou não aprovado (considerar que nota igual ou maior que 6 o aluno é aprovado). 
+     Escrever também a média calculada. 
 
-mport java.util.Scanner;
+import java.util.Scanner;
 public class Exercicio10 {
 
 	public static void main(String[] args) {
@@ -29,3 +31,12 @@ public class Exercicio10 {
 	}
 
 }
+
+Teste de mesa:
+
+| Passo | Entrada | Variáveis                | Cálculo                                        | Saída                        |
+|-------|---------|--------------------------|------------------------------------------------|------------------------------|
+| 1     | -       | `scanner`                | -                                              | -                            |
+| 2     | `7.0`   | `nota1 = 7.0`            | -                                              | -                            |
+| 3     | `5.0`   | `nota2 = 5.0`            | `media = (nota1 + nota2) / 2` <br> `media = (7.0 + 5.0) / 2 = 12.0 / 2 = 6.0` | `o Aluno esta aprovado`      |
+| 4     | `4.0`   | `nota1 = 4.0`, `nota2 = 4.0` | `media = (nota1 + nota2) / 2` <br> `media = (4.0 + 4.0) / 2 = 8.0 / 2 = 4.0` | `o Aluno esta reprovado` <br> `A média do aluno é: 4.00` |
