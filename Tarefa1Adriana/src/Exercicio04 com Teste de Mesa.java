@@ -29,3 +29,13 @@ public class Exercicio4	 {
 
 Teste de mesa:
 
+| Passo | Entrada | Variáveis                                | Cálculo                                                                 | Saída                              |
+|-------|---------|------------------------------------------|-------------------------------------------------------------------------|------------------------------------|
+| 1     | -       | `scanner`                               | -                                                                       | -                                  |
+| 2     | `20000` | `custoFabrica = 20000`                   | -                                                                       | -                                  |
+| 3     | -       | `percentualDistribuidor = 0.28`          | -                                                                       | -                                  |
+| 4     | -       | `percentualImpostos = 0.45`              | -                                                                       | -                                  |
+| 5     | -       | `custoDistribuidor = custoFabrica * percentualDistribuidor` | `custoDistribuidor = 20000 * 0.28 = 5600`                                 | -                                  |
+| 6     | -       | `custoAntesImpostos = custoFabrica + custoDistribuidor` | `custoAntesImpostos = 20000 + 5600 = 25600`                            | -                                  |
+| 7     | -       | `custoImpostos = custoAntesImpostos * percentualImpostos` | `custoImpostos = 25600 * 0.45 = 11520`                                  | -                                  |
+| 8     | -       | `custoFinal = custoAntesImpostos + custoImpostos` | `custoFinal = 25600 + 11520 = 37120`                                    | `O custo final ao consumidor é: R$ 37120.00` |
