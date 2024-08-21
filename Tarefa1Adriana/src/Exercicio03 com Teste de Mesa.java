@@ -1,3 +1,5 @@
+3 - Escreva um algoritmo para ler o salário mensal atual de um funcionário e o percentual de reajuste. Calcular e escrever o valor do novo salário. 
+
 import java.util.Scanner;
 
 public class Exercicio3 {
@@ -22,3 +24,5 @@ public class Exercicio3 {
         scanner.close();
     }
 }
+
+Teste de mesa: 
