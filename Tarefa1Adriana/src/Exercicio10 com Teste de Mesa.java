@@ -1,4 +1,6 @@
-import java.util.Scanner;
+10 - 
+
+mport java.util.Scanner;
 public class Exercicio10 {
 
 	public static void main(String[] args) {
